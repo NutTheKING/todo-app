@@ -1,0 +1,10 @@
+{
+    "language": "Choose Language",
+    "email": "Email",
+    "message": "Welcome to our application!",
+    "greeting": "Good Morning",
+    "farewell": "Goodbye",
+    "login": "Login",
+    "logout": "Logout",
+    "category": "Category"
+}

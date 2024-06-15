@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          create_to_json: true
+          disallow_unrecognized_keys: true
+          ignore_unannotated: true
+          explicit_to_json: true  # Example: Use if you want explicit toJson methods
+        build_extensions:
+          .dart:
+            - lib/dto/todo_list_dto.dart
